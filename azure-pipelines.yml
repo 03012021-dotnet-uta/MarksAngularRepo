@@ -27,7 +27,7 @@ steps:
     cliProjectKey: '03012021Batch_memesaverangular'
     cliProjectName: 'memesaverangular'
     cliSources: '$(solution)'
-    extraProperties: 'sonar.javascript.lcov.reportPaths=$(solution)/coverage/email-ui/lcov.info'
+    extraProperties: 'sonar.javascript.lcov.reportPaths=$(solution)/coverage/memesaver/lcov.info'
       # sonar.exclusions= **/$(solution)/src/vendor/**
 
 - task: NodeTool@0
