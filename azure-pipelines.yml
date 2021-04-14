@@ -5,13 +5,13 @@ trigger:
 #the below is required only if you have multiple .sln files in your repo.
   paths:
     include:
-    - Demos/AngularDemo/memesaver
+    - AngularDemo/memesaver
 
 pool:
   vmImage: 'windows-latest'
 
 variables:
-  solution: 'Demos/AngularDemo/memesaver'
+  solution: 'AngularDemo/memesaver'
   buildPlatform: 'Any CPU'
   buildConfiguration: 'Release'
 
