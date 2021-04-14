@@ -41,12 +41,12 @@ steps:
     command: 'install'
     workingDir: $(solution)
 
-- task: Npm@1
-  displayName: 'NPM Install Angular CLI'
-  inputs:
-    command: 'custom'
-    workingDir: $(solution)
-    customCommand: 'install -g @angular/cli@latest'
+# - task: Npm@1
+#   displayName: 'NPM Install Angular CLI'
+#   inputs:
+#     command: 'custom'
+#     workingDir: $(solution)
+#     customCommand: 'install -g @angular/cli@latest'
 
 - task: Npm@1
   displayName: 'NPM Build Angular'
